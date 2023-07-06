@@ -224,3 +224,193 @@ a {
         width: 100%;
     }
 }
+
+.items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  #buttonsContainer {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: rgb(255, 131, 131);
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+  }
+
+  .button.active {
+    background-color: darkred;
+    color: white;
+  }
+  
+  
+  #flightList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .container {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .innerContainer {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .flightOperator {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+  }  
+  
+  .textCity {
+    font-size: 18px;
+    color: #313131;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .timeContainer {
+    font-size: 14px;
+    color: #333;
+    text-align: left;   
+  }
+  
+  
+  
+  .time {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .text {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .airportCode {
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .priceContainer {
+    margin-top: 10px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .flightOperator {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+  }
+
+.footer-container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    margin: 0 auto;
+    background-color:#333;
+    background-image: url(https://htmldemo.net/christ/christ/img/bg/footer-bg.png);
+}
+
+.footer-outline{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.footer-outline-logo {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px 0;
+    background-image: url('https://htmldemo.net/christ/christ/img/footer-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #333;
+}
+
+.footer-outline-text {
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.footer-information-header {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-information-hrefs > * {
+    color: #fff;
+    display: flex;
+}
+
+.footer-categories {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 28px;
+}
+
+.footer-categories-header {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-categories-hrefs > * {
+    color: #fff;
+}
+
+.footer-contact-us {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 47px;
+}
+
+.footer-contact-us-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-contact-us-text > * {
+    color: #fff;
+}
